@@ -36,5 +36,21 @@ namespace Calculator.Tests
             // Then
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void TestMultiply()
+        {
+            // arragne
+            int a = 2;
+            int b = 4;
+            int expected = 8;
+            Calculator calculator = new Calculator();
+
+            //act
+            int actual = calculator.Multiply(a, b);
+            //assert
+            Assert.Equal(8, actual);
+
+        }
     }
 }
