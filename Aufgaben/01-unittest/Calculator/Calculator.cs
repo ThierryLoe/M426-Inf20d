@@ -17,5 +17,9 @@ namespace Calculator
         {
             return multiplyA * multiplyB;
         }
+        public int Division(int divisionA, int divisionB)
+        {
+            return divisionA / divisionB;
+        }
     }
 }

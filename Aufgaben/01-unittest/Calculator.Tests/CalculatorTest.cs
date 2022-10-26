@@ -49,8 +49,21 @@ namespace Calculator.Tests
             //act
             int actual = calculator.Multiply(a, b);
             //assert
-            Assert.Equal(8, actual);
+            Assert.Equal(expected, actual);
+        }
+        [Fact]
+        public void TestDivision()
+        {
+            // arragne
+            int a = 16;
+            int b = 4;
+            int expected = 4;
+            Calculator calculator = new Calculator();
 
+            //act
+            int actual = calculator.Division(a, b);
+            //assert
+            Assert.Equal(expected, actual);
         }
     }
 }
