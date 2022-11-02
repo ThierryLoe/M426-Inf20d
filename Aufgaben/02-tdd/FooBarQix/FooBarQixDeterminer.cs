@@ -1,7 +1,10 @@
 ﻿namespace FooBarQix
 {
-    public class FooBarQixDeterminer
+    public static class FooBarQixDeterminer
     {
+        public static string Determine(int input)
+        {
 
+        }
     }
 }
