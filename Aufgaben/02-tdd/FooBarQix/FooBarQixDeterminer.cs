@@ -4,7 +4,7 @@
     {
         public static string Determine(int input)
         {
-
+            string result =
         }
     }
 }
